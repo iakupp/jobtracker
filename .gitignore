@@ -1,6 +1,10 @@
 # See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
 
 # dependencies
+node_modules/
+client/node_modules/
+server/node_modules/
+.env
 /node_modules
 /.pnp
 .pnp.*
@@ -16,6 +20,13 @@
 # next.js
 /.next/
 /out/
+client/.next/
+client/out/
+
+# Environment
+.env
+client/.env
+server/.env
 
 # production
 /build
